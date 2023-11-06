@@ -76,8 +76,8 @@
         "osType": {
             "publisher": "MicrosoftWindowsServer",
             "offer": "WindowsServer",
-            "sku": "2019-datacenter-gensecond",
-            "version": "17763.3130.220404",
+            "sku": "2019-Datacenter",
+            "version": "latest",
             "osDiskName": "[concat(variables('vmName'), '-osdisk')]",
             "dataDiskName": "[concat(variables('vmName'), '-datadisk')]"
         },
